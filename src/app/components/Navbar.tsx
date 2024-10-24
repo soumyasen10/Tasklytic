@@ -5,24 +5,28 @@ import Link from 'next/link'
 
 export const Navbar=()=>{
     return(
-        <div className="container bg-black">
+        <div className="bg-black">
+        <div className="px-8">
             <div className='py-4 flex items-center justify-between'>
-           <div className='relative sm:top-14 top-8'>
+           <div className='relative top-8 flex items-center '>
             <div className='absolute w-full bottom-0 bg-[linear-gradient(to-right,#F87BFF,#fb92cf,#FFDD9B,#C2F081,#2fD8fe)]'>
-            <LogoImg className="relative"/>
+            <LogoImg className=""/>
             </div>
            </div>
             <div className='border border-white border-opacity-30 h-10 w-10 inline-flex items-center rounded-lg justify-center sm:hidden'>
             <Menu className="text-white"/>
             </div>
-            <nav>
-                <Link href="#">About</Link>
-                <Link href="#">Features</Link>
-                <Link href="#">Update</Link>
-                <Link href="#">Help</Link>
-                <Link href="#">Customer</Link>
+            <nav className='text-white hidden sm:flex gap-6 items-center '>
+                <Link className=' text-white text-opacity-75 hover:text-opacity-100 transition' href="#">About</Link>
+                <Link className='text-white text-opacity-75 hover:text-opacity-100 transition' href="#">Features</Link>
+                <Link className='text-white text-opacity-75 hover:text-opacity-100 transition' href="#">Update</Link>
+                <Link className='text-white text-opacity-75 hover:text-opacity-100 transition' href="#">Help</Link>
+                <Link className='text-white text-opacity-75 hover:text-opacity-100 transition' href="#">Customer</Link>
+                <button className='bg-white py-2 px-4 rounded-lg text-black'>Get for free</button>
             </nav>
             </div>
         </div>
+        </div>
+
     )
 }

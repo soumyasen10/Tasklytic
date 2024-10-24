@@ -8,9 +8,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
-     container:{
-      padding:'1rem'
-     }
+      container: {
+        padding: '1rem'
+      },
     },
   },
   plugins: [],
