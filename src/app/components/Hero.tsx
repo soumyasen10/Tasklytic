@@ -5,8 +5,8 @@ import Message from '../../assets/images/message 1.svg'
 
 export const Hero =()=>{
     return(
-        <div className="bg-black text-white bg-[linear-gradient(to_bottom,#000,#200d42_34%,#4f21a1_65%,#a46edb_82%)] py-[72px] sm:py-24 relative overflow-clip">
-        <div className="absolute sm:w-[1936px] sm:h-[768px]  h-[475px] w-[120vw] rounded-[100%] bg-black left-1/2 -translate-x-1/2 border border-[#b48cde] bg-[radial-gradient(closest-side_at_center,#000_82%,#9560eb)] top-[calc(100%-96px)] sm:top-[calc(100%-140px)]">
+        <div className="bg-black text-white bg-[linear-gradient(to_bottom,#000,#200d42_34%,#4f21a1_65%,#a46edb_82%)] py-[92px] sm:py-24 relative overflow-clip">
+        <div className="absolute sm:w-[1936px] sm:h-[768px]  h-[475px] w-[160vw] md:w-[2340px] md:h-[580px] rounded-[100%] bg-black left-1/2 -translate-x-1/2 border border-[#b48cde] bg-[radial-gradient(closest-side_at_center,#000_82%,#9560eb)] top-[calc(100%-120px)] sm:top-[calc(100%-140px)]">
         </div>
             <div className=" relative flex flex-col justify-center items-center -top-4">
             <div className="flex items-center justify-center  ">
