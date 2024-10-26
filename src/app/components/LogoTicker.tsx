@@ -17,6 +17,9 @@ export const LogoTicker=()=>{
                     {images.map((Logo)=>(
                     <Logo className="flex-none h-8 w-auto"/>
                    ))}
+                   <Logo2/>
+                   <Logo3/>
+                   <Logo5/>
                     </div>
                 </div>
             </div>
