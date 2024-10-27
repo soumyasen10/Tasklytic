@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import LogoImg from '../../assets/images/Default.svg'
 import Menu from '../../assets/images/Icons.svg'
 import Link from 'next/link'
