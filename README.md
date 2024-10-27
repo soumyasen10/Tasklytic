@@ -1,3 +1,7 @@
+![image](https://github.com/user-attachments/assets/bc08c94a-841e-4a70-abb0-dc0be7c95304)
+
+
+
 # Tasklytic
 
 Tasklytic is a powerful UI for task management, designed to streamline productivity and simplify complex workflows. Its intuitive interface and rich feature set make it an ideal choice for individuals and teams aiming to boost efficiency and manage tasks effortlessly.
