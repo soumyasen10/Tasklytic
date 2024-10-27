@@ -1,36 +1,27 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Tasklytic
 
-## Getting Started
+Tasklytic is a powerful UI for task management, designed to streamline productivity and simplify complex workflows. Its intuitive interface and rich feature set make it an ideal choice for individuals and teams aiming to boost efficiency and manage tasks effortlessly.
 
-First, run the development server:
+## Features
+- **Responsive Task Management UI**: A fully responsive design for an optimal experience on all devices.
+- **Intuitive Animations**: Powered by Framer Motion, animations make interactions feel smooth and visually engaging.
+- **Dynamic Task Cards**: Task cards with animations for actions like creating, deleting, and updating tasks.
+- **Customizable Views**: Easily toggle between different layouts (e.g., list, board, calendar) to match your workflow.
+- **Interactive Modals & Overlays**: Animated modals for adding, editing, or viewing detailed task information.
+- **Hover & Transition Effects**: Subtle hover effects and transitions enhance the interactive feel.
+- **Dark Mode Support**: Built-in support for light and dark themes, with animated transitions.
 
+## Tech Stack
+
+- **Frontend**: Nextjs, Tailwind, Dm_sans
+- **Animations**: Framer Motion for high-performance, declarative animations
+- **Design**: [Tasklytic](https://www.figma.com/design/lQmOkgfrf9GP5JnJdus5l2/SaaS-Website-UI-Kit-%E2%80%94-Framer-Website-Kit-(Community)?node-id=27-192&node-type=frame&t=cCi2NktOzpBQDYtI-0) for UI design and prototyping
+
+## Installation
+
+Clone the repository:
 ```bash
+git clone https://github.com/yourusername/tasklytic.git
+cd tasklytic
+npm i
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
